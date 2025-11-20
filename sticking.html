@@ -1,77 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sticking</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-  <div class="logo-text">
-  <img src="images/logo.png" alt="Site logo" class="header-logo">
-  <h1>How to Read Drumline Music</h1>
-</div>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="noteheads.html">Note Heads</a>
-    <a href="accents.html">Accents</a>
-    <a href="sticking.html" class="active">Sticking / Notation</a>
-  </nav>
-</header>
-
-<main>
-
-  <section class="hero small-hero">
-    <div class="hero-text">
-      <h2>Sticking</h2>
-      <p>R and L markings tell you which hand plays each note.</p>
+  <header>
+    <div class="logo-text">
+      <img src="images/logo.png" alt="Site logo" class="header-logo">
+      <h1>How to Read Drumline Music</h1>
     </div>
 
-    <div class="hero-graphic">
-      <div class="image-placeholder">Sticking placeholder</div>
-    </div>
-  </section>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="noteheads.html">Note Heads</a>
+      <a href="accents.html">Accents</a>
+      <a href="sticking.html" class="active">Sticking / Notation</a>
+    </nav>
+  </header>
 
-  <section class="content-grid">
-    <article class="card">
-      <h3>Basics</h3>
-      <p>RLRL = alternating, RRLL = doubles.</p>
-    </article>
+  <main>
 
-    <article class="card">
-      <h3>Common Patterns</h3>
-      <p>Paradiddles, rolls, hybrids.</p>
-    </article>
+    <section class="hero small-hero">
+      <div class="hero-text">
+        <h2>Sticking &amp; Stem Notation</h2>
+        <p>
+          Sticking tells you which hand plays each note, and stem direction shows how
+          the part is grouped on the page. Together they make drumline music easier
+          to read and clean.
+        </p>
+      </div>
+    </section>
 
-    <article class="card">
-      <h3>Hand & Accent Control</h3>
-      <p>The right hand often takes accents.</p>
-    </article>
-  </section>
+    <section class="content-grid">
+      <article class="card">
+        <h3>Sticking Basics</h3>
+        <p>
+          Sticking is written with <strong>R</strong> for right hand and <strong>L</strong> for left hand.
+          You usally put a capital R or L under notes that are accented.
+        </p>
+        <p><strong>Common patterns include:</strong></p>
+        <ul>
+          <li>R L R L – alternating hands</li>
+          <li>R R L L – double strokes</li>
+          <li>R L R R | L R L L – single paradiddle</li>
+          <li>R L R L R R – double paradiddle</li>
+          <li>R L R R L L – paradiddle-diddle</li>
+        </ul>
+        <div class="image-slot">
+          <img src="images/sticking.png" alt="stick" class="stick-img">
+          <p class="img-label">sticking</p>
+        </div>
 
-  <section class="notation-section">
-    <div class="notation-text">
-      <h3>Example</h3>
-      <p>Combine sticking, note heads, and accents.</p>
-    </div>
 
-    <div class="notation-box">
-      <div class="image-placeholder">Full example</div>
-    </div>
-  </section>
+      </article>
 
-  <section class="next-step">
-    <a class="btn secondary" href="noteheads.html">Back to Note Heads</a>
-  </section>
+      <article class="card">
+        <h3>Stem Notation</h3>
+        <p>
+          Drumline parts often use stem direction to separate voices:
+        </p>
+        <ul>
+          <li><strong>Diddles</strong> – Diddles consist of 2 notes in the span of one hit.</li>
+          <li><strong>Buzzs</strong> – Buzzs consist of many quick notes in the span of one singe hit.</li>
+        </ul>
 
-</main>
+        <!-- IMAGE SLOT -->
+        <div class="image-slot">
+          <img src="images/diddle.png" alt="diddle" class="slot-img">
+          <p class="img-label">Diddle</p>
+        </div>
 
-<footer>
-  <p>&copy 2025 How to Read Drumline Music</p>
-</footer>
+        <!-- IMAGE SLOT -->
+        <div class="image-slot">
+          <img src="images/buzz.png" alt="buzz" class="slot-img">
+          <p class="img-label">Buzz</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Flams</h3>
+        <p>
+          A <strong>flam</strong> is two notes very close together: a soft grace note followed by a
+          primary note. Both hands play, but the main note should be clear and strong.
+        </p>
+        <ul>
+          <li>Grace note is lower and softer</li>
+          <li>Primary note is higher and louder</li>
+          <li>Keep the two notes close, not spread apart</li>
+        </ul>
+
+        <!-- IMAGE SLOT -->
+        <div class="image-slot">
+          <img src="images/flam.png" alt="flam" class="slot-img">
+          <p class="img-label">Flam</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="notation-section">
+      <div class="notation-text">
+        <h3>Full Example</h3>
+        <p>
+          In this example, notice how stem notation, sticking markings (R/L), and
+          flams all work together. Try counting the rhythm, saying the sticking, and
+          then playing it slowly.
+        </p>
+      </div>
+
+      <div class="notation-box">
+        <img src="images/stickex.png" alt="sticking" class="notation-img">
+      </div>
+    </section>
+
+    <section class="next-step">
+      <a class="btn secondary" href="index.html">Back Home</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 How to Read Drumline Music</p>
+  </footer>
 
 </body>
+
 </html>

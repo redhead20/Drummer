@@ -150,6 +150,14 @@ main {
   color: var(--dark-red);
 }
 
+.notehead-image {
+  width: 100%;
+  max-width: 120px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+}
+
 /* CONTENT GRID */
 .content-grid {
   margin-top: 2rem;
@@ -215,4 +223,48 @@ footer {
   }
 }
 
+/* IMAGE SLOT UNDER EACH CARD */
+.image-slot {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.slot-img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+  margin: 0.3rem auto;
+}
+
+.img-label {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+.slot-img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.notation-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+  margin: 0.3rem auto;
+}
+
+
+.stick-img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+  margin: 0.3rem auto;
+}
 
