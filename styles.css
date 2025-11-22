@@ -249,6 +249,15 @@ footer {
   max-width: 100px;
 }
 
+.notation-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+  margin: 0.3rem auto;
+}
+
 .notation-img {
   width: 100%;
   max-width: 500px;
