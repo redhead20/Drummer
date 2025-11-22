@@ -114,18 +114,6 @@ main {
   color: white;
 }
 
-/* PLACEHOLDER BOXES */
-.image-placeholder {
-  width: 100%;
-  min-height: 120px;
-  border: 2px dashed var(--primary-red);
-  color: var(--primary-red);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 6px;
-}
-
 /* NOTEHEAD GRID */
 .notehead-grid {
   margin-top: 2rem;
@@ -176,6 +164,24 @@ main {
 .card h3 {
   margin-top: 0;
   color: var(--dark-red);
+}
+
+.card-image {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.card-image2 {
+  width: 100%;
+  max-width: 140px;
+  border-radius: 6px;
+  border: 2px solid var(--border-soft);
+  display: block;
+  margin-top: 0.8rem;
 }
 
 /* NOTATION SECTION */
